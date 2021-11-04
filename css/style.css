@@ -1,3 +1,53 @@
+body {
+    margin: 0;
+}
+
 h1 {
     font-family: 'Satisfy', cursive;
+    color:#ffff66;
+    text-align: center;
+    font-size: 8vw;
+    padding-top: 1vw;
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
+nav {
+    background-color: rgb(13, 14, 14);
+    height: 18vw;
+    float: left;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: block;
+    float: right;
+    padding-left: 13vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
+}
+
+li :hover{
+    background-color: darkgrey;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+  }
+
+a:hover {
+    color: #ffff66;
+  }
+
+/* how to make letters darken when hover */
