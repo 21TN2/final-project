@@ -1,14 +1,17 @@
+html{
+    background-color: rgb(247, 245, 243);
+}
+
 body {
     margin: 0;
 }
 
-h1 {
+.headertitle {
     font-family: 'Satisfy', cursive;
     color:#ffff66;
-    text-align: center;
+    padding-left: 40vw;
     font-size: 8vw;
-    padding-top: 1vw;
-    margin-top: 0;
+    margin-top: 1vw;
     margin-bottom: 0;
 }
 
@@ -18,6 +21,18 @@ nav {
     float: left;
     width: 100%;
 }
+
+.fas {
+    font-size: 8vw;
+    color: #ffff66;
+}
+
+.logo {
+    padding-top: 3vw;
+    padding-left: 2vw;
+    float: left;
+}
+
 
 ul{
     list-style-type: none;
@@ -31,7 +46,7 @@ li{
     float: right;
     padding-left: 13vw;
     padding-right: 5vw;
-    padding-top: 1vw;
+    padding-top: 2vw;
 }
 
 li :hover{
@@ -50,13 +65,169 @@ a:hover {
     color: #ffff66;
   }
 
-/* .main_img {
-    img
-} */
+.fronttitle {
+    display: inline-block;
+    margin: 0;
+    margin-left: 2vw;
+    margin-top: 3vw;
+    font-size: 2vw;
+    line-height: 0vw;
+}
 
-  /* footer {
+.div1{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    padding-bottom: 8vw;
+    border-bottom: dotted;
+    border-color: #8f8f87;
+}
+
+.main_img {
+    float: left;
+    margin: 0;
+    margin-right: 2vw;
+}
+
+.text{
+   line-height: 1.5; 
+   color: #646464;
+}
+/* need to adjust the space the text takes up when the tab shrinks */
+
+p{ 
+    font-size: 1.8vw;
+    font-weight: bold;
+    padding-left: 2vw;
+}
+
+.recipes{
+    margin-top: 5vw;
+    margin-left: 2vw;
+    letter-spacing: 0.2vw;
+    padding-bottom: 10vw;
+}
+
+.recipesimg {
+    margin-top: 3vw;
+}
+
+.dessertpic {
+    width: 25vw;
+}
+
+.pic1 {
+    margin-left: 4vw;
+    display: inline-block;
+}
+
+.pic2 {
+    margin-left: 5vw;
+    display: inline-block;
+}
+
+.pic3 {
+    margin-left: 6vw;
+    display: inline-block;
+}
+
+.cooktitle{
+    display: inline-block;
+    background-color: #fbff8b;
+    color: #303030;
+    margin: 0;
+    padding: 0;
+    padding-right: 12.1vw;
+    padding-left: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 1vw;
+}
+
+.cooktitlealt1{
+    display: inline-block;
+    background-color: #fbff8b;
+    color: #303030;
+    margin: 0;
+    padding: 0;
+    padding-right: 9vw;
+    padding-left: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 1vw;
+}
+
+.cooktitlealt2{
+    display: inline-block;
+    background-color: #fbff8b;
+    color: #303030;
+    margin: 0;
+    padding: 0;
+    padding-right: 11.3vw;
+    padding-left: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 1vw;
+}
+
+  footer {
     text-align: center;
-    padding: 3px;
-    background-color: #ffff66;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    background-color: #303030;
     color: rgb(255, 255, 255);
-  } */
+  }
+
+.socials {
+    display: inline-block;
+}
+
+
+/* ---------------------------------------------------------------------------------------- */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+input[type=submit] {
+    background-color: #cfcfcf;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #ffff66;
+}
+  
+.form {
+    align-content: right;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.socials {
+    padding-top: 2vw;
+}
+
+.sociallinks{
+    display: inline-block;
+}
+
+.fab {
+    padding: 5px;
+    font-size: 30px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 2px
+}
+
+.map{
+    display: inline-block;
+    padding-left: 80vw;
+}
