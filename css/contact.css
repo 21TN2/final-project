@@ -1,0 +1,66 @@
+html{
+    background-color: rgb(247, 245, 243);
+}
+
+body {
+    margin: 0;
+}
+
+.headertitle {
+    font-family: 'Satisfy', cursive;
+    color:#ffff66;
+    padding-left: 40vw;
+    font-size: 8vw;
+    margin-top: 1vw;
+    margin-bottom: 0;
+}
+
+nav {
+    background-color: rgb(13, 14, 14);
+    height: 18vw;
+    float: left;
+    width: 100%;
+}
+
+.fas {
+    font-size: 8vw;
+    color: #ffff66;
+}
+
+.logo {
+    padding-top: 3vw;
+    padding-left: 2vw;
+    float: left;
+}
+
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: block;
+    float: right;
+    padding-left: 13vw;
+    padding-right: 5vw;
+    padding-top: 2vw;
+}
+
+li :hover{
+    background-color: darkgrey;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+  }
+
+a:hover {
+    color: #ffff66;
+  }
