@@ -60,11 +60,11 @@ a:link {
 
 a:visited {
     color: rgb(255, 255, 255);
-  }
+}
 
 a:hover {
     color: #ffff66;
-  }
+}
 
 .fronttitle {
     display: inline-block;
@@ -167,13 +167,13 @@ p{
     padding-bottom: 1vw;
 }
 
-  footer {
+footer {
     text-align: center;
     padding-top: 5vw;
     padding-bottom: 5vw;
     background-color: rgb(13, 14, 14);
     color: rgb(255, 255, 255);
-  }
+}
 
 .socials {
     display: inline-block;
@@ -189,10 +189,10 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-  }
+}
   
 input[type=submit] {
-    background-color: #cfcfcf;
+    background-color: #686868;
     color: white;
     padding: 12px 20px;
     border: none;
