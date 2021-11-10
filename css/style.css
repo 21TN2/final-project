@@ -9,15 +9,16 @@ body {
 .headertitle {
     font-family: 'Satisfy', cursive;
     color:#ffff66;
-    padding-left: 40vw;
+    padding-left: 5vw;
     font-size: 8vw;
     margin-top: 1vw;
     margin-bottom: 0;
+    float: left;
 }
 
 nav {
     background-color: rgb(13, 14, 14);
-    height: 18vw;
+    height: 13vw;
     float: left;
     width: 100%;
 }
@@ -38,14 +39,14 @@ ul{
     list-style-type: none;
     float: right;
     margin: 0;
-    padding: 0;
+    padding-top: 5.5vw;
 }
 
 li{
-    display: block;
-    float: right;
-    padding-left: 13vw;
-    padding-right: 5vw;
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 5vw;
+    padding-right: 8vw;
     padding-top: 2vw;
 }
 
@@ -170,7 +171,7 @@ p{
     text-align: center;
     padding-top: 5vw;
     padding-bottom: 5vw;
-    background-color: #303030;
+    background-color: rgb(13, 14, 14);
     color: rgb(255, 255, 255);
   }
 
@@ -178,8 +179,6 @@ p{
     display: inline-block;
 }
 
-
-/* ---------------------------------------------------------------------------------------- */
 
 input[type=text], select, textarea {
     width: 100%;
